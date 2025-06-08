@@ -4,6 +4,7 @@ la sucesión de Fibonacci.
 */
 
 void main() {
+  /* Sucesion de fibonacci, i= 0 b= 1 , i + b = c, i = b y b = c */
   int primerNumero = 0;
   int segundoNumero = 1;
   final List<int> numerosFibo = [];
