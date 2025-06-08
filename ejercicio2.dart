@@ -22,11 +22,11 @@ void main() {
 
   final elementosUnicos = elementos.where((elemento) {
     int contador = 0;
-
+    //Compara el elemento tomado con todos los que se encuentran en la lista.
     elementos.forEach((element) {
       if (elemento == element) contador++;
     });
-
+    //Como se llega a comparar consigo mismo eso quiere decir que si este solo aparece una vez, es unico.
     return contador == 1;
   }).toList();
 
